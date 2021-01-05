@@ -23,9 +23,9 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 | a PHP script and you can easily do that on your own.
 |
 */
-$config['base_url'] = '';
+$config['base_url'] = "http://".$_SERVER['HTTP_HOST'];
 if($_SERVER['HTTP_HOST']!="localhost:8080")
-	$config['base_url'] = $_SERVER['HTTP_HOST'].'/chacon';
+	$config['base_url'] = "http://".$_SERVER['HTTP_HOST'].'/chacon';
 
 /*
 |--------------------------------------------------------------------------
@@ -37,7 +37,7 @@ if($_SERVER['HTTP_HOST']!="localhost:8080")
 | variable so that it is blank.
 |
 */
-$config['index_page'] = 'index.php';
+$config['index_page'] = '';
 
 /*
 |--------------------------------------------------------------------------

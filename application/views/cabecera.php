@@ -23,12 +23,12 @@
 
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav">
-        <li><a href="/Welcome">Inicio</a></li>
+        <li><a href="<?= site_url() ?>/Welcome">Inicio</a></li>
         <li class="dropdown">
           <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Inventario <span class="caret"></span></a>
           <ul class="dropdown-menu" role="menu">
-            <li><a href="/Inventario_Controller/catalogo">Catalogo</a></li>
-            <li><a href="/Inventario_Controller/existencia">Existencia</a></li>
+            <li><a href="<?= site_url() ?>/Inventario_Controller/catalogo">Catalogo</a></li>
+            <li><a href="<?= site_url() ?>/Inventario_Controller/existencia">Existencia</a></li>
           </ul>
         </li>
       </ul>
