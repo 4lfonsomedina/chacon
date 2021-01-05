@@ -24,6 +24,8 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 |
 */
 $config['base_url'] = '';
+if($_SERVER['HTTP_HOST']!="localhost:8080")
+	$config['base_url'] = $_SERVER['HTTP_HOST'].'/chacon';
 
 /*
 |--------------------------------------------------------------------------
