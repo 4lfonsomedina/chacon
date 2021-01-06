@@ -75,7 +75,7 @@ $query_builder = TRUE;
 
 $db['1'] = array(
 	'dsn'	=> '',
-	'hostname' => 'localhost\COMPAC',
+	'hostname' => 'COMPAC',
 	'username' => 'sa',
 	'password' => 'Compac08',
 	'database' => 'adADINMAN',
