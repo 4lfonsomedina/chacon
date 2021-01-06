@@ -75,7 +75,7 @@ $query_builder = TRUE;
 
 $db['1'] = array(
 	'dsn'	=> '',
-	'hostname' => '192.168.1.15/ADINMAN',
+	'hostname' => 'localhost\ADINMAN',
 	'username' => 'sa',
 	'password' => 'Compac08',
 	'database' => 'adADINMAN',
@@ -96,7 +96,7 @@ $db['1'] = array(
 );
 $db['2'] = array(
 	'dsn'	=> '',
-	'hostname' => '192.168.1.15/ADINMAN',
+	'hostname' => 'localhost\ADINMAN',
 	'username' => 'sa',
 	'password' => 'Compac08',
 	'database' => 'adCOMINDUZA_S_DE_RL_DE',
@@ -117,7 +117,7 @@ $db['2'] = array(
 );
 $db['3'] = array(
 	'dsn'	=> '',
-	'hostname' => '192.168.1.15/ADINMAN',
+	'hostname' => 'localhost\ADINMAN',
 	'username' => 'sa',
 	'password' => 'Compac08',
 	'database' => 'adcpRICARDO_ALONZO_CHA',
@@ -138,7 +138,7 @@ $db['3'] = array(
 );
 $db['4'] = array(
 	'dsn'	=> '',
-	'hostname' => '192.168.1.15/ADINMAN',
+	'hostname' => 'localhost\ADINMAN',
 	'username' => 'sa',
 	'password' => 'Compac08',
 	'database' => 'adRICARDO_ALONZO_CHACO',
@@ -159,7 +159,7 @@ $db['4'] = array(
 );
 $db['5'] = array(
 	'dsn'	=> '',
-	'hostname' => '192.168.1.15/ADINMAN',
+	'hostname' => 'localhost\ADINMAN',
 	'username' => 'sa',
 	'password' => 'Compac08',
 	'database' => 'adTIAVZA',
