@@ -75,7 +75,7 @@ $query_builder = TRUE;
 
 $db['1'] = array(
 	'dsn'	=> '',
-	'hostname' => 'localhost\ADINMAN',
+	'hostname' => 'ADINMAN-PC\COMPAC',
 	'username' => 'sa',
 	'password' => 'Compac08',
 	'database' => 'adADINMAN',
@@ -94,9 +94,10 @@ $db['1'] = array(
 	'failover' => array(),
 	'save_queries' => TRUE
 );
+/*
 $db['2'] = array(
 	'dsn'	=> '',
-	'hostname' => 'localhost\ADINMAN',
+	'hostname' => 'ADINMAN-PC\COMPAC',
 	'username' => 'sa',
 	'password' => 'Compac08',
 	'database' => 'adCOMINDUZA_S_DE_RL_DE',
@@ -179,3 +180,4 @@ $db['5'] = array(
 	'save_queries' => TRUE
 );
 
+*/
