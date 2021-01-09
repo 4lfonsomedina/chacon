@@ -73,9 +73,14 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 $active_group = '1';
 $query_builder = TRUE;
 
+$hostname = 'localhost';
+$username = 'myusernamegoeshere';
+$password = 'mypasswordgoeshere';
+$database = 'mydatabasenamegoeshere';
+
 $db['1'] = array(
 	'dsn'	=> '',
-	'hostname' => 'ADINMAN-PC\COMPAC',
+	'hostname' => 'oandonasodn',
 	'username' => 'sa',
 	'password' => 'Compac08',
 	'database' => 'adADINMAN',
