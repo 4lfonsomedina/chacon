@@ -99,29 +99,6 @@ $db['1'] = array(
 	'failover' => array(),
 	'save_queries' => TRUE
 );
-/*
-
-$db['sanmarcos_live'] = array(
-	'dsn'	=> '',
-	'hostname' => '192.168.0.117\AVATTIA',
-	'username' => 'sa',
-	'password' => 'aitva',
-	'database' => 'FERBISSANMARCOS',
-	'dbdriver' => 'sqlsrv',
-	'dbprefix' => '',
-	'pconnect' => FALSE,
-	'db_debug' => (ENVIRONMENT !== 'production'),
-	'cache_on' => FALSE,
-	'cachedir' => '',
-	'char_set' => 'utf8',
-	'dbcollat' => 'utf8_general_ci',
-	'swap_pre' => '',
-	'encrypt' => FALSE,
-	'compress' => FALSE,
-	'stricton' => FALSE,
-	'failover' => array(),
-	'save_queries' => TRUE
-);
 
 
 $db['2'] = array(
@@ -208,5 +185,3 @@ $db['5'] = array(
 	'failover' => array(),
 	'save_queries' => TRUE
 );
-
-*/
