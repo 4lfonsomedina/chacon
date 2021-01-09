@@ -80,7 +80,7 @@ $database = 'mydatabasenamegoeshere';
 
 $db['1'] = array(
 	'dsn'	=> '',
-	'hostname' => 'localhost\COMPAC',
+	'hostname' => 'compac',
 	'username' => 'sa',
 	'password' => 'Compac08',
 	'database' => 'adADINMAN',
