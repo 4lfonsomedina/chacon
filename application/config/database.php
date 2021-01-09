@@ -80,10 +80,10 @@ $database = 'mydatabasenamegoeshere';
 
 $db['1'] = array(
 	'dsn'	=> '',
-	'hostname' => '192.168.1.15\ADINMAN-PC\COMPAC',
+	'hostname' => '192.168.1.15\COMPAC',
 	'username' => 'sa',
 	'password' => 'Compac08',
-	'database' => 'adCOMINDUZA_S_DE_RL_DE',
+	'database' => 'adADINMAN',
 	'dbdriver' => 'sqlsrv',
 	'dbprefix' => '',
 	'pconnect' => FALSE,
